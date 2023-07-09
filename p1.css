@@ -280,60 +280,18 @@ nav ul li a:hover {
 }
 
 
-@media (max-width:500px){
+@media (max-width:770px){
  
     * {
         margin: 0;
         padding: 0;
     }
     body {
-        width: 500px;
+        width: 1500px;
         font-family: 'Poppins', sans-serif;
         background-color: white;
     }
     
-    .navbar {
 
-
-        width: 1200px;
-        font-family: 'Poppins', sans-serif;
-        display: flex;
-        align-items: center;
-        height: 73px;
-        background-color: #232323;
-    }
-    nav .left {
-        font-size: 18px;
-        margin-left: 30px;
-        font-weight: bold;
-        color: white;
-    }
-    
-    nav .right {
-        font-size: 12px;
-        margin-left: 50px;
-    }
-    
-    nav ul {
-        display: flex;
-        justify-content: center;
-    }
-    
-    nav ul li {
-    
-        list-style: none;
-    }
-    
-    nav ul li a {
-    
-        text-decoration: none;
-        color: white;
-        margin: 0 15px;
-    }
-    
-    nav ul li a:hover {
-        color: white;
-        font-size: 1.05rem;
-    }
 
 }
